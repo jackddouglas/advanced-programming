@@ -1,0 +1,26 @@
+@keyframes first {
+  0% {
+	background-color: red;
+	left: 0
+  }
+  50% {
+	background-color: green;
+	font-size: 48px;
+  }
+  100% {
+	background-color: blue;
+	left: 75%;
+	font-size: 8px;
+  }
+}
+
+.animate {
+	position: relative;
+	width: 25%;
+	background-color: red;
+	animation-name: first;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(0.2, 0.8, 0.6, 0.3);
+}

@@ -1,0 +1,15 @@
+p {
+	color: red;
+	background-color: yellow;
+}
+
+.blueText {
+	color: blue;
+	background-color: white;
+	font-weight: bold;
+}
+
+#original {
+	background-color: green;
+	color: black;
+}
